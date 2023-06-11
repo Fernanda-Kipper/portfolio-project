@@ -1,0 +1,26 @@
+.container {
+    padding: 40px 32px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "header"
+    "btns"
+    "experience"
+    "info";
+}
+
+@media (min-width: 768px){
+    .container {
+        padding: 70px 60px;
+        height: 100vh;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: 60% 30%;
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        grid-template-areas: 
+        "header info"
+        "experience empty-1"
+        "empty-2 btns";
+    }
+}
