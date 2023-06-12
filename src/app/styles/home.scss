@@ -1,6 +1,7 @@
 .container {
     padding: 40px 32px;
     display: grid;
+    gap: 24px;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
     "header"
