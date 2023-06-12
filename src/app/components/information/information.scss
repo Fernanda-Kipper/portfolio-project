@@ -18,5 +18,18 @@
 
     span {
         color: var(--text-secondary);
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+        
+        span {
+            font-size: 20px;
+            line-height: 36px;
+            text-align: start;
+        }
     }
 }
